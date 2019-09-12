@@ -93,6 +93,7 @@ object Stream {
     Cons( () => head, () => tail)
   }
 
+
   def empty[A]: Stream[A] = Empty
 
   def apply[A](as: A*): Stream[A] =
